@@ -1,0 +1,20 @@
+.PageNotFoundImg{
+  align-items: center;
+  width: 400px;
+  height:120px;
+  top:35%;
+  left:35%;
+}
+
+.Page404 > *{
+  top: -100px;
+  position: relative;
+  align-items: center;
+}
+
+.jogo {
+  min-width: 100%;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}

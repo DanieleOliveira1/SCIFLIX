@@ -1,0 +1,59 @@
+{
+    "categorias":[
+        {
+            "id":1,
+            "nome":"#FiqueEmCasa",
+            "descricao": "Informações sobre a pandemia no Brasil",
+            "cor": "#325179"
+        },
+        {
+            "id":2,
+            "nome":"Alura",
+            "descricao": "Aqui você aprende programação",
+            "cor": "#212350"
+        },
+        {
+            "id":3,
+            "nome":"Porque sim não é resposta",
+            "descricao": "A matemática como você nunca viu",
+            "cor": "#56baa3"
+        },
+        {
+            "id":4,
+            "nome":"Física",
+            "descricao": "O curso de física básica do ciência todo dia",
+            "cor": "#412458"
+        },
+        {
+            "id":5,
+            "nome":"Astronomia",
+            "descricao": "Espaço de conhecimento UFMG e curso básico de astronomia",
+            "cor": "#a990d1"
+        },
+        {
+            "id":6,
+            "nome":"Tecnologias",
+            "descricao": "Aplicações e informações sobre o mundo da tecnologia",
+            "cor": "#8cafd0"
+        },
+        {
+            "id":7,
+            "nome":"História",
+            "descricao": "Aprenda mais sobre uma das ciências humanas",
+            "cor": "#c8ac78"
+        },
+        {
+            "id":8,
+            "nome":"Biologia",
+            "descricao": "Aprenda biologia de forma simples!",
+            "cor": "#386329"
+        },
+        {
+            "id":9,
+            "nome":"Química",
+            "descricao": "Do átomo as reações",
+            "cor": "#8f5c3b"
+        }
+        
+    ]
+}
