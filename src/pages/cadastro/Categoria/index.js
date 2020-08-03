@@ -34,7 +34,6 @@ function CadastroCategoria() {
         setCategorias([
           ...resposta,
         ]);
-
     })
 
   }, []);
