@@ -1,59 +1,360 @@
-{
-    "categorias":[
-        {
-            "id":1,
-            "nome":"#FiqueEmCasa",
-            "descricao": "Informações sobre a pandemia no Brasil",
-            "cor": "#325179"
-        },
-        {
-            "id":2,
-            "nome":"Alura",
-            "descricao": "Aqui você aprende programação",
-            "cor": "#212350"
-        },
-        {
-            "id":3,
-            "nome":"Porque sim não é resposta",
-            "descricao": "A matemática como você nunca viu",
-            "cor": "#56baa3"
-        },
-        {
-            "id":4,
-            "nome":"Física",
-            "descricao": "O curso de física básica do ciência todo dia",
-            "cor": "#412458"
-        },
-        {
-            "id":5,
-            "nome":"Astronomia",
-            "descricao": "Espaço de conhecimento UFMG e curso básico de astronomia",
-            "cor": "#a990d1"
-        },
-        {
-            "id":6,
-            "nome":"Tecnologias",
-            "descricao": "Aplicações e informações sobre o mundo da tecnologia",
-            "cor": "#8cafd0"
-        },
-        {
-            "id":7,
-            "nome":"História",
-            "descricao": "Aprenda mais sobre uma das ciências humanas",
-            "cor": "#c8ac78"
-        },
-        {
-            "id":8,
-            "nome":"Biologia",
-            "descricao": "Aprenda biologia de forma simples!",
-            "cor": "#386329"
-        },
-        {
-            "id":9,
-            "nome":"Química",
-            "descricao": "Do átomo as reações",
-            "cor": "#8f5c3b"
-        }
-        
-    ]
-}
+
+    {
+        "categorias": [
+          {
+            "titulo": "#FiqueEmCasa",
+            "link": "https://coronavirus.saude.gov.br/",
+            "cor": "#325179",
+            "link_extra": {
+              "text": "Informações sobre a pandemia no Brasil",
+              "url": "https://coronavirus.saude.gov.br/"
+            },
+            "videos": [
+              {
+                "titulo": "Drª Shirley Jackson: A força das mulheres negras na ciência",
+                "url": "https://www.youtube.com/watch?v=Rd8k5N-nEAI"
+              },
+              {
+                "titulo": "Live 01/06 - Reabrir Agora??? #FiqueEmCasa",
+                "url": "https://www.youtube.com/watch?v=qMxuoEbmwko"
+              },
+              {
+                "titulo": "Live 16/06 - Vacinas contra a COVID-19 #FiqueEmCasa",
+                "url": "https://www.youtube.com/watch?v=TcevjiHMz8I"
+              },
+              {
+                "titulo": "Por que pra algumas pessoas o vírus é leve? | Coronavírus #37",
+                "url": "https://www.youtube.com/watch?v=fRdcvZeJjqs"
+              },
+              {
+                "titulo": "Como são os sintomas da COVID-19? #FiqueEmCasa",
+                "url": "https://www.youtube.com/watch?v=X_HC8aCrHdA"
+              },
+              {
+                "titulo": "Roda Viva | Atila Iamarino | 30/03/2020",
+                "url": "https://www.youtube.com/watch?v=s00BzYazxvU"
+              },
+              {
+                "titulo": "Coronavírus: 12 dúvidas relacionadas à covid-19",
+                "url": "https://www.youtube.com/watch?v=oXYbvA8X3as"
+              },
+              {
+                "titulo": "Coronavirus - Libras",
+                "url": "https://www.youtube.com/watch?v=qs9t9DJmMcU"
+              }        
+            ]
+          },
+          {
+            "titulo": "Alura",
+            "cor": "#212350",
+            "link_extra": {
+              "text": "Aqui você aprende programação",
+              "url": "https://www.alura.com.br/"
+            },
+            "videos": [
+              {
+                "titulo": "Box-model e box-shadow no CSS sem segredos #AluraMais",
+                "url": "https://www.youtube.com/watch?v=pZrAG27KZSg&list=PLh2Y_pKOa4Uc6DxNrBC5-ATs19YHDEIe_&index=16"
+              },
+              {
+                "titulo": "GitHub sem linhas de comando #AluraMais",
+                "url": "https://www.youtube.com/watch?v=vhqTiQdUHfY&list=PLh2Y_pKOa4Uc6DxNrBC5-ATs19YHDEIe_&index=12"
+              },
+              {
+                "titulo": "4 mitos sobre programação #HipstersPontoTube",
+                "url": "https://www.youtube.com/watch?v=yj0FR_gm0sM&list=PLh2Y_pKOa4Ufs_KwjTdGBFH6b65ChApyD&index=2"
+              },
+              {
+                "titulo": "O que é Node JS? #HipstersPontoTube",
+                "url": "https://www.youtube.com/watch?v=GKR6uSvEj8w&list=PLh2Y_pKOa4Ufs_KwjTdGBFH6b65ChApyD&index=8"
+              },
+              {
+                "titulo": "O que é Data Science? #HipstersPontoTube",
+                "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&list=PLh2Y_pKOa4Ufs_KwjTdGBFH6b65ChApyD&index=55"
+              },
+              {
+                "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
+                "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w&list=PLh2Y_pKOa4Ufs_KwjTdGBFH6b65ChApyD&index=53"
+              },
+              {
+                "titulo": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!",
+                "url": "https://www.youtube.com/watch?v=jOAU81jdi-c&list=PLh2Y_pKOa4UfsZfAT5ylSsbcEjpguxoBI"
+              }
+            ]
+          },
+          {
+            "titulo": "Porque sim não é resposta",
+            "cor": "#56baa3",
+            "link_extra": {
+              "text": "A matemática como você nunca viu",
+              "url": "https://www.youtube.com/playlist?list=PLo_EQ9UogVg2ffWPP9FSnjQNxlF3vT233"
+            },
+            "videos": [
+              {
+                "titulo": "COMO SOMAR FRAÇÕES SEM USAR MMC ",
+                "url": "https://www.youtube.com/watch?v=xKLs73pY4l0&list=PLo_EQ9UogVg2ffWPP9FSnjQNxlF3vT233&index=2&t=0s"
+              },
+              {
+                "titulo": "COMO FAZER REGRA DE TRÊS: SEM DECORAR NADA",
+                "url": "https://www.youtube.com/watch?v=AUYenhP3nsw&list=PLo_EQ9UogVg2ffWPP9FSnjQNxlF3vT233&index=2"
+              },
+              {
+                "titulo": "REGRA DOS SINAIS: POR QUE MAIS COM MENOS DA MENOS?",
+                "url": "https://www.youtube.com/watch?v=UT1PoTLYe9A&list=PLo_EQ9UogVg2ffWPP9FSnjQNxlF3vT233&index=3"
+              },
+              {
+                "titulo": "EQUAÇÃO DO 1o GRAU: PASSA PARA LÁ COM SINAL INVERTIDO? ",
+                "url": "https://www.youtube.com/watch?v=TtE5Hs0oC5Y&list=PLo_EQ9UogVg2ffWPP9FSnjQNxlF3vT233&index=4"
+              }, 
+              {
+                "titulo": "EQUAÇÃO DO 2o GRAU: POR QUE BHASKARA FUNCIONA?",
+                "url": "https://www.youtube.com/watch?v=9MNnMB3zOCM&list=PLo_EQ9UogVg2ffWPP9FSnjQNxlF3vT233&index=5"
+              },
+              {
+                "titulo": "ÁREA DE FIGURAS PLANAS: QUALQUER ÁREA COM UMA ÚNICA FÓRMULA ",
+                "url": "https://www.youtube.com/watch?v=l0z1uXO_sMA&list=PLo_EQ9UogVg2ffWPP9FSnjQNxlF3vT233&index=6"
+              }, 
+              {
+                "titulo": "PITÁGORAS: por quê funciona? - Demonstração do Teorema de Pitágoras ",
+                "url": "https://www.youtube.com/watch?v=kn1RglZFLkE&list=PLo_EQ9UogVg2ffWPP9FSnjQNxlF3vT233&index=7"
+              }, 
+              {
+                "titulo": "MENTINDO COM GRÁFICOS - Aprenda a ler gráficos (e não ser enganado) ",
+                "url": "https://www.youtube.com/watch?v=duodDus_Wuc&list=PLo_EQ9UogVg2ffWPP9FSnjQNxlF3vT233&index=8"
+              }
+            ]
+          },
+          {
+            "titulo": "Física ",
+            "cor": "#412458",
+            "link_extra": {
+              "text": "O curso de física básica do ciência todo dia",
+              "url": "https://www.youtube.com/playlist?list=PLPz6TqSYQzDYuQ3WqF5plmN0rycwcYULm"
+            },
+            "videos": [
+              {
+                "titulo": "O Que É Energia? | Episódio 1",
+                "url": "https://www.youtube.com/watch?v=3VLPyOLC1nc&list=PLPz6TqSYQzDYuQ3WqF5plmN0rycwcYULm"
+              },
+              {
+                "titulo": "A Teoria do Movimento | Episódio 2",
+                "url": "https://www.youtube.com/watch?v=X6mQcBdFkXQ&list=PLPz6TqSYQzDYuQ3WqF5plmN0rycwcYULm&index=2"
+              },
+              {
+                "titulo": "Quantidade de Movimento Explicada (Momento) | Episódio 3",
+                "url": "https://www.youtube.com/watch?v=Seb29XUjakk&list=PLPz6TqSYQzDYuQ3WqF5plmN0rycwcYULm&index=3"
+              },
+              {
+                "titulo": "A Primeira Lei de Newton (Lei da Inércia) Explicada | Episódio 4",
+                "url": "https://www.youtube.com/watch?v=RoyecFxgwTs&list=PLPz6TqSYQzDYuQ3WqF5plmN0rycwcYULm&index=4"
+              },
+              {
+                "titulo": "A Segunda Lei de Newton Explicada | Episódio 5",
+                "url": "https://www.youtube.com/watch?v=gS1FnfzG-lg&list=PLPz6TqSYQzDYuQ3WqF5plmN0rycwcYULm&index=5"
+              },
+              {
+                "titulo": "A Terceira Lei de Newton Explicada | Episódio 6",
+                "url": "https://www.youtube.com/watch?v=Ei6DcLyNuyI&list=PLPz6TqSYQzDYuQ3WqF5plmN0rycwcYULm&index=6"
+              },
+              {
+                "titulo": "IMPULSO | Episódio 7",
+                "url": "https://www.youtube.com/watch?v=b0lk_OAGgQw&list=PLPz6TqSYQzDYuQ3WqF5plmN0rycwcYULm&index=7"
+              },
+              {
+                "titulo": "O TEOREMA DO TRABALHO-ENERGIA | Episódio 8",
+                "url": "https://www.youtube.com/watch?v=h0W5Z4tTqjc&list=PLPz6TqSYQzDYuQ3WqF5plmN0rycwcYULm&index=8"
+              }
+            ]
+          },
+          {
+            "titulo": "Astronomia",
+            "cor": "#a990d1",
+            "link_extra": {
+              "text": "Espaço de conhecimento UFMG e curso básico de astronomia",
+              "url": "https://www.youtube.com/playlist?list=PLj6artl7bRndh4uF6sMWbWPQpZtFixftk"
+            },
+            "videos": [
+              {
+                "titulo": "A História da Astronomia - Descomplicando a Astronomia",
+                "url": "https://www.youtube.com/watch?v=qtwtgDVzYeM&list=PLLrJ8l3JzATFLD6VFut8VJPBMexke6-xi&t=0s"
+              },
+              {
+                "titulo": "O Big Bang - Descomplicando a Astronomia",
+                "url": "https://www.youtube.com/watch?v=Jf90DzOeySY&list=PLLrJ8l3JzATFLD6VFut8VJPBMexke6-xi&index=9"
+              },
+              {
+                "titulo": "Lançamento do Calendário Astronômico 2020-2021 | Dia Nacional da Ciência",
+                "url": "https://www.youtube.com/watch?v=h9W75VFP_CM&list=PLj6artl7bRndh4uF6sMWbWPQpZtFixftk&index=6"
+              },
+              {
+                "titulo": "Descobrindo o Céu | 16/07 - Aglomerados de estrelas",
+                "url": "https://www.youtube.com/watch?v=NHa0o7QZgK0&list=PLj6artl7bRndh4uF6sMWbWPQpZtFixftk&index=3"
+              },
+              {
+                "titulo": "Espaço do Conhecimento UFMG oferece sessões de astronomia online",
+                "url": "https://www.youtube.com/watch?v=0zt8gfWO4bA&list=PLj6artl7bRndh4uF6sMWbWPQpZtFixftk&index=2"
+              },
+              {
+                "titulo": "Descobrindo o Céu | 09/07 - Histórias das constelações em diferentes culturas",
+                "url": "https://www.youtube.com/watch?v=DTEjtz4cjiw&list=PLj6artl7bRndh4uF6sMWbWPQpZtFixftk&index=4"
+              },
+              {
+                "titulo": "O Big Crunch - Descomplicando a Astronomia",
+                "url": "https://www.youtube.com/watch?v=fU6kgVLeuIo&list=PLLrJ8l3JzATFLD6VFut8VJPBMexke6-xi&index=11"
+              }
+            ]
+          },
+          {
+            "titulo": "Tecnologias",
+            "cor": "#8cafd0",
+            "link_extra": {
+              "text": "Aplicações e informações sobre o mundo da tecnologia",
+              "url": "https://www.alura.com.br/formacao-jogos-unity"
+            },
+            "videos": [
+              {
+                "titulo": "O que faz uma desenvolvedora FULLSTACK? | Bit de Prosa #22",
+                "url": "https://www.youtube.com/watch?v=XyaEYP1VdmA&list=PL3Wx5P4NOzUi9jmjvUa6RboGRtpzuYndh"
+              },
+              {
+                "titulo": "UNIVERSA TALKS 2020 | NINA DA HORA",
+                "url": "https://www.youtube.com/watch?v=NAWPUk2Z0cQ"
+              },
+              {
+                "titulo": "Workshop Machine Learning com Fernanda Wanderley",
+                "url": "hhttps://www.youtube.com/watch?v=Jq4aKxaoLGM&t=3986s"
+              },
+              {
+                "titulo": "Como funciona o mestrado em computação? | #EAICarlaResponde 1",
+                "url": "https://www.youtube.com/watch?v=pzhvjCDo48A&t=133s"
+              },
+              {
+                "titulo": "Racismo em Algoritmos: Viés racial em Deep Fakes | Bit de Prosa #21",
+                "url": "https://www.youtube.com/watch?v=vY84WKY9rJI&list=PL3Wx5P4NOzUi9jmjvUa6RboGRtpzuYndh&index=2"
+              },
+              {
+                "titulo": "CIÊNCIA DA COMPUTAÇÃO | Como é o curso?? (Bit de Prosa #14 Especial Alura)",
+                "url": "https://www.youtube.com/watch?v=DauPgf0I6IE&list=PL3Wx5P4NOzUi9jmjvUa6RboGRtpzuYndh&index=6"
+              },
+              {
+                "titulo": "Data Science vs Machine Learning vs Inteligência Artificial | Bit de Prosa #7 (Especial Alura)",
+                "url": "https://www.youtube.com/watch?v=OL-9Vwz4yjQ"
+              }
+            ]
+          },
+          {
+            "titulo": "História",
+            "cor": "#c8ac78",
+            "link_extra": {
+              "text": "Aprenda mais sobre uma das ciências humanas",
+              "url": "https://www.youtube.com/playlist?list=PLyRcl7Q37-DXmpJEy_fj-HnWtvHuu_Ihi"
+            },
+            "videos": [
+              {
+                "titulo": "Mulheres negras e o feminismo",
+                "url": "https://www.youtube.com/watch?v=lnJ4izof3mE&t=1s"
+              },
+              {
+                "titulo": "As trincheiras da Primeira Guerra Mundial | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=Vl3mdST0blw&list=PLyRcl7Q37-DXmpJEy_fj-HnWtvHuu_Ihi&index=19"
+              },
+              {
+                "titulo": "Breve história da REVOLUÇÃO RUSSA",
+                "url": "https://www.youtube.com/watch?v=nxzpjGW32tw&list=PL0g2HWK8QfHYG-lVHorHpsPneCJd_4h-E&index=12"
+              },
+              {
+                "titulo": "A ascensão de Napoleão | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=ZK5vwrLthl0&list=PLyRcl7Q37-DXmpJEy_fj-HnWtvHuu_Ihi&index=24"
+              },
+              {
+                "titulo": "A Crise de 1929 e o Crash da bolsa de valores | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=PuXyboguY5c&list=PLyRcl7Q37-DXmpJEy_fj-HnWtvHuu_Ihi&index=29"
+              },
+              {
+                "titulo": "Ruanda 1994 | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=a5Roe6qqMuI&list=PLyRcl7Q37-DXmpJEy_fj-HnWtvHuu_Ihi&index=40"
+              },
+              {
+                "titulo": "50 anos do AI-5 no Brasil | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=ACBevMga6G4&list=PLyRcl7Q37-DXmpJEy_fj-HnWtvHuu_Ihi&index=62"
+              },
+              {
+                "titulo": "Existe diferença entre golpe e revolução? | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=awhJ45W--bI&list=PLyRcl7Q37-DXmpJEy_fj-HnWtvHuu_Ihi&index=69"
+              },
+              {
+                "titulo": "A queda de Constantinopla e o Império Bizantino | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=ARs3n0J5jOs&list=PLyRcl7Q37-DXmpJEy_fj-HnWtvHuu_Ihi&index=86"
+              }
+            ]
+          },
+          {
+            "titulo": "Biologia",
+            "cor": "#386329",
+            "link_extra": {
+              "text": "Aprenda biologia de forma simples! ",
+              "url": "https://www.youtube.com/playlist?list=PLyRcl7Q37-DV52hO_mN0YQ8IX7DMrpgaF"
+            },
+            "videos": [
+              {
+                "titulo": "O que é o Coronavírus? | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=e-JaQOeFxtI&list=PLyRcl7Q37-DV52hO_mN0YQ8IX7DMrpgaF&index=12"
+              },
+              {
+                "titulo": "Por que gigantes não são reais | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=BnPJlqTaOyA&list=PLyRcl7Q37-DV52hO_mN0YQ8IX7DMrpgaF&index=20"
+              },
+              {
+                "titulo": "Como é viver com Fibrose Cística | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=sQx1c0fmJvo&list=PLyRcl7Q37-DV52hO_mN0YQ8IX7DMrpgaF&index=21"
+              },
+              {
+                "titulo": "A mulher que mudou a medicina, Henrietta Lacks | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=I21cJZ9QeoE&list=PLyRcl7Q37-DV52hO_mN0YQ8IX7DMrpgaF&index=34"
+              },
+              {
+                "titulo": "Armas biológicas | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=u2xey4wqZIg&list=PLyRcl7Q37-DV52hO_mN0YQ8IX7DMrpgaF&index=52"
+              },
+              {
+                "titulo": "A VANTAGEM DO POLEGAR OPOSITOR | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=57M7YjkDFbs&list=PLyRcl7Q37-DV52hO_mN0YQ8IX7DMrpgaF&index=96"
+              }
+            ]
+          },
+          {
+            "titulo": "Química",
+            "cor": "#8f5c3b",
+            "link_extra": {
+              "text": "Do átomo as reações",
+              "url": "https://www.youtube.com/playlist?list=PLyRcl7Q37-DWLbHCmcRq7JA6HLKUz5vds"
+            },
+            "videos": [
+              {
+                "titulo": "A Revolução das Baterias | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=VLfc21Lk9ro&list=PLyRcl7Q37-DWLbHCmcRq7JA6HLKUz5vds&index=10&t=0s"
+              },
+              {
+                "titulo": "Chernobil e a lava radioativa | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=3K8FpaITAF0&list=PLyRcl7Q37-DWLbHCmcRq7JA6HLKUz5vds&index=13"
+              },
+              {
+                "titulo": "Alquimia e como fazer ouro | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=E-fsgXaAdOQ&list=PLyRcl7Q37-DWLbHCmcRq7JA6HLKUz5vds&index=14&pbjreload=101"
+              },
+              {
+                "titulo": "Como transformar água em vinho | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=ra9XZGkKQFs&list=PLyRcl7Q37-DWLbHCmcRq7JA6HLKUz5vds&index=5"
+              },
+              {
+                "titulo": "A QUÍMICA DO MAL DE BREAKING BAD | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=uhnz7r9BQ8o&list=PLyRcl7Q37-DWLbHCmcRq7JA6HLKUz5vds&index=19"
+              },
+              {
+                "titulo": "Qual a maior bomba já criada | Nerdologia",
+                "url": "https://www.youtube.com/watch?v=KMuvO6DUMKo&list=PLyRcl7Q37-DWLbHCmcRq7JA6HLKUz5vds&index=7"
+              }
+            ]
+          }
+        ]
+      }
