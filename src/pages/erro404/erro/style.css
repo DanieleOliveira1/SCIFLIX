@@ -18,3 +18,17 @@
   align-items: center;
   justify-content: center;
 }
+
+.cadastro{
+  
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.video{
+  text-decoration: none;
+  align-items:center;
+  margin-top:30px;
+  
+}

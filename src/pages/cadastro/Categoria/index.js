@@ -32,10 +32,18 @@ function CadastroCategoria() {
 
   return (
     <PageDefault>
-      <h1>
-        Cadatro de Categoria:
-        {values.nome}
-      </h1>
+      <div className='cadastro' >
+        <h1>
+          Cadatro de Categoria:
+          {values.nome}
+        </h1>
+
+        <Link className='video' to="/">
+          Ir para Home
+        </Link>
+      </div>
+
+      
 
       <form onSubmit={function handSubmit(infosDoEvento) {
         infosDoEvento.preventDefault();
@@ -92,9 +100,7 @@ function CadastroCategoria() {
         
       </ul>
       
-      <Link to="/">
-        Ir para Home
-      </Link>
+      
     </PageDefault>
   );
 }

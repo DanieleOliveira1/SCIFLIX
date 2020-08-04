@@ -29,7 +29,18 @@ function CadastroVideo(){
     }, []);
     return (
         <PageDefault>
-            <h1>Cadatro de Vídeo</h1>
+            
+            <div className='cadastro'>
+                
+                <h1>Cadastro de Vídeo</h1>
+
+                <Link className='video' to='/cadastro/categoria'>
+                    Cadastrar Categoria
+                </Link>
+            </div>
+
+
+           
 
             <form onSubmit ={(event) => {
                 event.preventDefault();
@@ -80,12 +91,11 @@ function CadastroVideo(){
                     Cadastrar
                 </Button>
             </form>
-
             
-
-            <Link to='/cadastro/categoria'>
-                Cadastrar Categoria
-            </Link>
+           
+          
+           
+        
         </PageDefault>
     );
 }
