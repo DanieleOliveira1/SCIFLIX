@@ -1,6 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import Menu from '../../componentes/Menu'
-//import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../componentes/BannerMain';
 import Carousel from '../../componentes/Carousel';
 import categoriasRepository from '../../repositories/categorias';
@@ -33,7 +31,7 @@ function Home() {
               <BannerMain
                 videoTitle={dadosIniciais[0].videos[0].titulo}
                 url={dadosIniciais[0].videos[0].url}
-                videoDescription={dadosIniciais[0].videos[0].descricao}
+                videoDescription = "A história de Shirley Ann Jackson, a primeira mulher negra a conquistar o Ph.D em física nuclear pelo MIT e que foi responsável por diversas descobertas na área da ciência."
               />
               <Carousel
                 ignoreFirstVideo
