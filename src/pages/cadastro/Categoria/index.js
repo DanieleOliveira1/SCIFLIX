@@ -3,28 +3,19 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../componentes/PageDefault';
 import FormField from '../../../componentes/formField';
 import Button from '../../../componentes/Button';
+import useForm from '../../../hooks/useForm';
+
 function CadastroCategoria() {
   const valoresIniciais = {
     nome: '',
     descricao: '',
     cor: '#000',
   };
-  const [categorias, setCategorias] = useState(['teste']);
-  const [values, setValues] = useState(valoresIniciais);
 
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor, // nome:'valor'
-    });
-  }
+  const {handleChange, values, clearForm} = useForm(valoresIniciais);
+  const [categorias, setCategorias] = useState([]);
+  
 
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value,
-    );
-  }
 
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost') ? 'http://localhost:8080/categorias'
@@ -53,7 +44,7 @@ function CadastroCategoria() {
           values,
         ]);
 
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
 
