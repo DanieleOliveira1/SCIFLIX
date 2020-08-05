@@ -6,7 +6,7 @@
 <br>
   <h2> Imersão React - SCIFLIX</h2>
 
-**Sobre o Projeto**
+**Sobre o Projeto**<br>
 Durante a semana da imersão React da Alura, foi proposto a criação de um site para organizar vídeos do YouTube, assim como a Netflix organiza suas séries e filmes. O projeto tem como objetivo organizar vídeos educativos voltados para a área científica.
 
 **Interface do projeto** <br>
