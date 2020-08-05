@@ -16,6 +16,8 @@ Durante a semana da imersão React da Alura, foi proposto a criação de um site
   <p align="center">Organização dos vídeos</p> <br>
  <img  src="https://user-images.githubusercontent.com/62821027/89358248-3671f600-d699-11ea-99b3-1c37264fce22.png">
  <p align="center">Cadastro de novos vídeos e categorias</p> <br>
-  <img align="center" src="https://user-images.githubusercontent.com/62821027/89358947-09264780-d69b-11ea-9f89-30e1c085952a.png">
+ <p align="center">
+  <img  src="https://user-images.githubusercontent.com/62821027/89358947-09264780-d69b-11ea-9f89-30e1c085952a.png">
+</p>
  <p align="center">Versão mobile</p> <br>
  
